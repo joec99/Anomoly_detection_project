@@ -33,9 +33,19 @@ Operational reliability of ships is critical for safety, efficiency, and cost-ef
 ## Key Findings
 - **IQR Method**: Identified 2.16% of observations as anomalies, indicating the value of using multiple indicators.
 - **One-Class SVM**: Detected 3% anomalies, with overlap in anomalies identified by both IQR and SVM models.
+  
+  ![image](https://github.com/user-attachments/assets/8d884745-5796-48e3-a3fa-080a889f9a9f)
+
 - **Isolation Forest**: Robustly identified 3% anomalies with consistent results across parameter settings.
+
+![image](https://github.com/user-attachments/assets/db589290-bfa1-435b-91af-08fc738c0a41)
+
+  
 - **Model Efficacy**: One-Class SVM provided precise control over anomaly detection rates, while Isolation Forest proved robust with minimal tuning requirements.
 - **Visualization Insights**: Although PCA helps visualize anomalies, further dimensional analysis with t-SNE highlights local, non-linear relationships, enriching anomaly identification.
+
+  ![newplot](https://github.com/user-attachments/assets/8ffbdf3f-6083-429d-8f39-042ade86a8cd)
+
 
 ## Future Improvements
 1. **Domain Expert Validation**: Collaborating with marine engineers to validate detected anomalies and refine feature selection or model parameters.
